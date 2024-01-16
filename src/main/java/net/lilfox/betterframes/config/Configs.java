@@ -6,7 +6,6 @@
 package net.lilfox.betterframes.config;
 
 import fi.dy.masa.malilib.config.options.ConfigHotkey;
-import fi.dy.masa.malilib.util.Color4f;
 import net.lilfox.betterframes.gui.ConfigsGui;
 import net.minecraft.client.MinecraftClient;
 import top.hendrixshen.magiclib.malilib.api.annotation.Config;

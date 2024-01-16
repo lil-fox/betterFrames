@@ -4,9 +4,11 @@
   "package": "net.lilfox.betterframes.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "magiclibfix.WidgetConfigOptionMixin"
   ],
   "client": [
-    "ItemFrameEntityRendererMixin"
+    "ItemFrameEntityRendererMixin",
+    "magiclibfix.GuiBaseMixin"
   ],
   "injectors": {
     "defaultRequire": 1
