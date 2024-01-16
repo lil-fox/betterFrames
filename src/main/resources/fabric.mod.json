@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "betterframes",
+  "version": "${version}",
+  "name": "Better Frames",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/demos/betterFrames"
+  },
+  "license": "MIT",
+  "icon": "assets/betterframes/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.lilfox.betterframes.client.BetterFramesClient"
+    ]
+  },
+  "mixins": [
+    "betterframes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
